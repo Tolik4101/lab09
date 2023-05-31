@@ -8,7 +8,7 @@ Vagrant - это инструмент для управления виртуал
 5. `sudo useradd developer` - создание пользователя `developer`.
 6. `sudo usermod -aG sudo developer` - добавление пользователя `developer` в группу `sudo`.
 7. `echo "developer:developer" | sudo chpasswd` - установка пароля для пользователя developer.
-## Далее начинается конфигурация самой виртуальнйо машины Vagrant:
+## Далее начинается конфигурация самой виртуальной машины Vagrant:
 ```docker
 Vagrant.configure("2") do |config| # вызов метода configure с передачей ему версии конфигурации и блока кода для выполнения.
 
